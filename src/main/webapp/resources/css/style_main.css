@@ -1,0 +1,365 @@
+@charset "UTF-8";
+
+/*메인페이지 신규 div 시작*/
+.wrap_newemoticon {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+
+.wrap_newemoticon .tit_section {
+    margin: 0 0 2px 10px;
+}
+
+.area_hometab .tit_section {
+    max-width: 944px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: inherit;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.area_hometab .tit_section .link_menu {
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 24px;
+    font-family: "notokr-bold",sans-serif;
+    box-sizing: border-box;
+}
+
+.wrap_newemoticon .area_listproduct {
+    padding: 10px;
+    text-align: center;
+}
+
+.area_listproduct {
+    overflow: hidden;
+    background-color: #fff;
+    margin: -12px 0 0 -16px;
+}
+
+element.style {
+    transform: translate(0px, 0px);
+}
+
+.wrap_newemoticon .area_listproduct {
+    padding: 10px;
+    text-align: center;
+}
+
+.area_listproduct .list_unit {
+    position: relative;
+    float: left;
+    width: 20%;
+    padding: 12px 0 12px 16px;
+    box-sizing: border-box;
+}
+
+.wrap_newemoticon .area_listproduct {
+    padding: 10px;
+    text-align: center;
+}
+
+.wrap_newemoticon .area_listproduct .link_emot {
+    padding: 0 0 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.06);
+}
+
+.area_listproduct .list_unit .link_emot {
+    position: relative;
+    display: block;
+}
+
+.wrap_newemoticon .area_listproduct {
+    padding: 10px;
+    text-align: center;
+}
+
+.area_listproduct .list_unit .link_emot .inner_emot {
+    position: relative;
+    display: block;
+    width: 112px;
+    margin: 0 auto;
+    padding: 30px 0 0;
+}
+
+.wrap_newemoticon .area_listproduct {
+    padding: 10px;
+    text-align: center;
+}
+
+.area_listproduct .img_emot {
+    width: 100%;
+}
+
+img {
+    vertical-align: top;
+}
+
+fieldset, img {
+    border: 0 none;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.area_listproduct .tit_product {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    padding: 16px 20px 0;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.wrap_newemoticon .area_listproduct {
+    padding: 10px;
+    text-align: center;
+}
+
+.area_listproduct .tit_product .tit_item {
+    display: block;
+    height: 19px;
+    font-size: 15px;
+    line-height: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+
+.area_listproduct .tit_product {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    padding: 16px 20px 0;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+/*메인페이지 신규 div 끝*/
+
+
+
+/*메인페이지 인기 div 시작*/
+/* 인기 왼쪽 첫번째 스타일 시작 */
+.wrap_hottab .list_double:first-child {
+    padding-right: 40px;
+}
+
+.area_hometab .area_hot .list_double {
+    float: left;
+    width: 50%;
+    max-width: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.area_hometab .area_hot .list_double li {
+    float: none;
+    width: 100%;
+    height: 100px;
+    margin-left: 0;
+}
+
+.list_double li:nth-child(odd) {
+    margin-right: 40px;
+}
+
+.list_double li {
+    display: table;
+    table-layout: fixed;
+    position: relative;
+    float: left;
+    height: 136px;
+    width: calc(50% - 40px);
+    box-sizing: border-box;
+}
+
+.list_double .txt_num {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 32px;
+    max-width: 32px;
+    min-width: 32px;
+    font-size: 24px;
+    line-height: 22px;
+    font-family: "helvetica","helvetica neue";
+}
+
+.double_tit {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.double_tit .link_double {
+    display: block;
+}
+
+.link_double {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.link_double .area_tit {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+.link_double .tit_product {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+    line-height: 0;
+}
+
+strong {
+    font-weight: normal;
+}
+
+.link_double .area_tit .txt_tit {
+    height: 17px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+
+.link_double.double_img {
+    display: table-cell;
+    width: 76px;
+    padding: 0 0 0 20px;
+    vertical-align: middle;
+}
+
+.area_hometab .area_hot .list_double .area_doubleemoticon {
+    padding: 0;
+}
+
+.link_double .area_doubleemoticon {
+    position: relative;
+}
+
+.link_double .area_doubleemoticon .img_emot {
+    display: inline-block;
+    width: 100%;
+}
+
+img {
+    vertical-align: top;
+}
+
+fieldset, img {
+    border: 0 none;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+/* 인기 왼쪽 첫번째 스타일 끝 */
+
+/* 인기 오른쪽 첫번째 스타일 시작*/
+.wrap_hottab .list_double:last-child {
+    padding-left: 40px;
+}
+
+.area_hometab .area_hot .list_double {
+    float: left;
+    width: 50%;
+    max-width: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.area_hometab .area_hot .list_double li {
+    float: none;
+    width: 100%;
+    height: 100px;
+    margin-left: 0;
+}
+
+.list_double li:nth-child(odd) {
+    margin-right: 40px;
+}
+
+.list_double li {
+    display: table;
+    table-layout: fixed;
+    position: relative;
+    float: left;
+    height: 136px;
+    width: calc(50% - 40px);
+    box-sizing: border-box;
+}
+
+.list_double .txt_num {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 32px;
+    max-width: 32px;
+    min-width: 32px;
+    font-size: 24px;
+    line-height: 22px;
+    font-family: "helvetica","helvetica neue";
+}
+
+/* 인기 오른쪽 첫번째 스타일 끝*/
+
+
+/*메인페이지 인기 div 끝*/
